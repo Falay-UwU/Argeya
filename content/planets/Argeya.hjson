@@ -1,0 +1,108 @@
+name: "Argeya"
+parent: sun
+iconColor: 9a3e65       //Цвет иконки
+orbitRadius: 120       //Радиус орбиты
+hasAtmosphere: true       //Есть ли атмосфера?
+updateLighting: true
+atmosphereRadIn: 0.05
+atmosphereRadOut: 0.1
+atmosphereColor: 885d7c       //Цвет атмосферы
+drawOrbit: true
+
+accessible: true      //Можно ли на неё приземлиться (Оставляйте всегда true, если не хотите чтобы планета была декоративной)
+alwaysUnlocked: true      //Всегда ли разблокированна? (Оставляйте всегда true, если не хотите чтобы планета была декоративной)
+defaultCore: "Core-Being"       //Основное ядро (В данном случае Осколок). Можно создать своё ядро и указать здесь
+sectorSeed: 4       //Семя сектора
+startSector: 4      //Начальный сектор 
+sectorSize: 4.0       //Размер секторов
+
+clearSectorOnLose: true       //Очищать сектор после проигрыша? (true - да, false - нет)
+allowSectorInvasion: false      //Возможность атаки с вражеских секторов (true - будет атака с вражеских секторов, false - враги не будут атаковать соседние сектора)
+allowLaunchToNumbered: false      //Возможность приземляться на соседние сектора (true - как на Серпуло, false - как на Эрекире)
+
+mesh: [
+  {
+    type: NoiseMesh
+    planet: Argeya
+    divisions: 6
+    seed: 101
+    radius: 0.95
+    color1: c8a7cf
+    color2: 835887
+    octaves: 5.1
+    persistence: 0.8
+  }
+]
+cloudMesh: [
+ {
+   type: HexSkyMesh
+   planet: Argeya
+   speed: 1.21
+   radius: 0.1
+   divisions: 6
+   color: e1a8e0
+   octaves: 3
+   persistence: 0.3
+   scl: 1
+   thresh: 0.6
+  }
+  {
+   type: HexSkyMesh
+   planet: Argeya
+   speed: 2.01
+   radius: 0.09
+   divisions: 6
+   color: cc94bc
+   octaves: 3
+   persistence: 0.4
+   scl: 0.9
+   thresh: 0.6
+  }
+  {
+   type: HexSkyMesh
+   planet: Argeya
+   speed: 1.891
+   radius: 0.091
+   divisions: 6
+   color: ca70e9
+   octaves: 3
+   persistence: 0.5
+   scl: 1.1
+   thresh: 0.6
+  }
+  {
+   type: HexSkyMesh
+   planet: Argeya
+   speed: 2.891
+   radius: 0.19
+   divisions: 6
+   color: c194a8
+   octaves: 3
+   persistence: 0.5
+   scl: 1.1
+   thresh: 0.6
+  }
+   {
+   type: HexSkyMesh
+   planet: Argeya
+   speed: 3.891
+   radius: 0.08
+   divisions: 6
+   color: f5a9f4
+   octaves: 3
+   persistence: 0.5
+   scl: 1.1
+   thresh: 0.6
+  }
+]
+generator: {
+  octaves: 3
+  persistence: 0.52
+  scale: 120
+  mag: 0.721
+  thresh: 1.152
+  min: 100
+  max: 100
+  radMin: 220
+  radMax: 600
+}

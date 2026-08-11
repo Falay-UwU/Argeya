@@ -1,0 +1,9 @@
+name: Spetinum
+description: "."
+color: "799886"
+ hardness: 1
+ charge: 0.05
+ explosiveness: 0.05
+ flammability: 0.0
+ radioactivity: 0.05
+ cost: 1

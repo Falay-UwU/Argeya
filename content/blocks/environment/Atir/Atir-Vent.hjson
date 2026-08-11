@@ -1,0 +1,9 @@
+name: Atir Vent
+type: SteamVent
+blendGroup: Atir-Smooth-Floor
+parent: Atir-Smooth-Floor
+effect: ventSteam
+effectColor: "1e1d31"
+attributes: {
+  Efirlis: 0.04
+}

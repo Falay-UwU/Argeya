@@ -1,0 +1,16 @@
+name: "Talosium Router"
+description: "."
+type: Router
+category: distribution
+size: 1
+speed: 6
+squareSprite: false
+requirements: [
+  Talosium/4
+  Velysitum/1
+]
+research: Talosium-Duct
+researchCost: [
+  Talosium/30
+  Velysitum/10
+]

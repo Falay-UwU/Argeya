@@ -1,0 +1,14 @@
+name: Talosium Junction
+type: Junction
+description: "."
+category: distribution
+health: 50
+size: 1
+speed: 8
+requirements: [
+  Talosium/4
+  Velysitum/2
+]
+squareSprite: false
+research: Talosium-Duct
+researchCostMultiplier: 3.5

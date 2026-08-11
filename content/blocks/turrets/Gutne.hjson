@@ -1,0 +1,259 @@
+type: ItemTurret
+name: Alleryt
+description: "."
+size: 2
+health: 400
+reload: 10
+inaccuracy: 0
+range: 320
+targetAir: true
+targetGround: true
+category: turret
+shootSound: laser
+shootY: 1
+outlineColor: 171717
+itemCapasity: 10
+requirements: [
+  Talosium/250
+  Velysitum/100
+  Efirlis-Materia/50
+]
+ammoTypes: {
+  Efirlis-Materia: {
+    bulletType: IncendiaryBulletType
+    shootEffect: none
+    shootEffectColor: dcc6db
+    smokeEffect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          particles: 6
+          length: 10
+          lifetime: 23
+          interp: pow5Out
+          cone: 200
+          layer: 100.1
+          colorFrom: dcc6db
+          colorTo: ffffff
+          sizeFrom: 1
+          sizeTo: 2
+        }
+        {
+          type: ParticleEffect
+          particles: 16
+          followParent: true
+          length: 75
+          lifetime: 45
+          interp: pow2Out
+          cone: 6
+          layer: 100.1
+          colorFrom: dcc6db
+          colorTo: ffffff
+          sizeFrom: 1.2
+          sizeTo: 2.5
+        }
+      ]
+    }
+    frontColor: dcc6db
+    backColor: dcc6db
+    trailColor: dcc6db
+    trailWidth: 4
+    trailLength: 5
+    trailParam: 1
+    trailInterval: 0.5
+    trailEffect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          particles: 3
+          lifetime: 30
+          layer: 100.1
+          cone: 360
+          length: 10
+          sizeFrom: 4
+          sizeTo: 0
+          colorFrom: dcc6db
+          colorTo: ffffff
+        }
+      ]
+    }
+    hitEffect: {
+      type: ExplosionEffect
+      lifetime: 15
+      waveColor: dcc6db
+      waveStroke: 1.3
+      waveRad: 15
+      smokeColor: dcc6db
+      smokeSizeBase: 3
+      smokeSize: 2
+      smokes: 3
+      sparkColor: dcc6db
+      sparkStroke: 1.6
+      sparkRad: 11.5
+      sparkLen: 1
+      sparks: 5
+    }
+    hitColor: dcc6db
+    width: 3
+    height: 5
+    speed: 40
+    lifetime: 8
+    ammoMultiplier: 5
+    buildingDamageMultiplier: 0.1
+    homingDelay: 1
+    homingPower: 0.2
+    homingRange: 30
+    damage: 10
+    knockback: 5.0
+    status: Low-Intangible
+    statusDuration: 240
+    fragBullets: 8
+    fragRandomSpread: 9.5
+    fragVelocityMin: 0.8
+    fragVelocityMax: 2.0
+    fragLifeMin: 1
+    fragLifeMax: 2
+    fragBullet: {
+      speed: 5
+      lifetime: 4
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 7
+      pierceDamageFactor: 0.01
+      drag: 0.04
+      damage: 5
+      width: 10
+      height: 15
+      shrinkY: 0.25
+      shrinkX: 1
+      frontColor: ffffff
+      backColor: 00000000
+      hitColor: ffffff
+      despawnEffect: none
+      hitEffect: hitBulletColor
+      buildingDamageMultiplier: 0.1
+    }
+  }
+  Irvisul-Solid: {
+    bulletType: IncendiaryBulletType
+    shootEffect: none
+    shootEffectColor: d6feff
+    smokeEffect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          particles: 6
+          length: 10
+          lifetime: 23
+          interp: pow5Out
+          cone: 200
+          layer: 100.1
+          colorFrom: d6feff
+          colorTo: ffffff
+          sizeFrom: 1
+          sizeTo: 2
+        }
+        {
+          type: ParticleEffect
+          particles: 16
+          followParent: true
+          length: 75
+          lifetime: 45
+          interp: pow2Out
+          cone: 6
+          layer: 100.1
+          colorFrom: d6feff
+          colorTo: ffffff
+          sizeFrom: 1.2
+          sizeTo: 2.5
+        }
+      ]
+    }
+    frontColor: d6feff
+    backColor: d6feff
+    trailColor: d6feff
+    trailWidth: 4
+    trailLength: 5
+    trailParam: 1
+    trailInterval: 0.5
+    trailEffect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          particles: 3
+          lifetime: 30
+          layer: 100.1
+          cone: 360
+          length: 10
+          sizeFrom: 4
+          sizeTo: 0
+          colorFrom: d6feff
+          colorTo: ffffff
+        }
+      ]
+    }
+    hitEffect: {
+      type: ExplosionEffect
+      lifetime: 15
+      waveColor: d6feff
+      waveStroke: 1.3
+      waveRad: 15
+      smokeColor: d6feff
+      smokeSizeBase: 3
+      smokeSize: 2
+      smokes: 3
+      sparkColor: d6feff
+      sparkStroke: 1.6
+      sparkRad: 11.5
+      sparkLen: 1
+      sparks: 5
+    }
+    hitColor: d6feff
+    width: 4
+    height: 6
+    speed: 54
+    lifetime: 5
+    ammoMultiplier: 3
+    buildingDamageMultiplier: 0.1
+    homingDelay: 1
+    homingPower: 0.3
+    homingRange: 40
+    damage: 15
+    knockback: 7.0
+    fragBullets: 11
+    fragRandomSpread: 9.5
+    fragVelocityMin: 0.8
+    fragVelocityMax: 2.0
+    fragLifeMin: 1
+    fragLifeMax: 2
+    fragBullet: {
+      speed: 5
+      lifetime: 4
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 7
+      pierceDamageFactor: 0.01
+      drag: 0.04
+      damage: 5
+      width: 10
+      height: 15
+      shrinkY: 0.25
+      shrinkX: 1
+      frontColor: ffffff
+      backColor: 00000000
+      hitColor: ffffff
+      despawnEffect: none
+      hitEffect: hitBulletColor
+      buildingDamageMultiplier: 0.1
+    }
+  }
+}
+consumes: {
+  coolant: {
+    amount: 0.2
+  }
+}

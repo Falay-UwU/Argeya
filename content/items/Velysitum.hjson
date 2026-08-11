@@ -1,0 +1,9 @@
+name: Velysitum
+description: "."
+color: "8f475a"
+ hardness: 1
+ charge: 0.0
+ explosiveness: 0.05
+ flammability: 0.0
+ radioactivity: 0.15
+ cost: 1

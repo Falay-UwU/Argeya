@@ -1,0 +1,14 @@
+type: RainWeather
+name: Efirlis Rain
+color: 9c7f9d
+xspeed: 1.4
+yspeed: 3
+stroke: 1
+density: 4500
+sizeMin: 14
+sizeMax: 22
+splashTimeScale: 12
+liquid: Efirlis
+force: 0
+status: Low-Dematerialization
+statusDuration: 240

@@ -1,0 +1,149 @@
+name: Ifrio
+description: "."
+type: hover
+range: 88
+useEngineElevation: false
+shadowElevation: 0.3
+engineOffset: -1.75
+engineSize: 0
+loopSound: loopHover
+loopSoundVolume: 0.8
+flying: false
+outlineColor: "182033"
+outlineRadius: 3
+alwaysUnlocked: false
+accel: 0.1
+health: 150
+hovering: true
+speed: 1.5
+hitSize: 3
+healColor: f0a4d988
+canDrown: false
+drag: 0.03
+engines: [
+  {
+    x: 0
+    y: 0
+    radius: 2
+    rotation: -90
+  }
+]
+enginesColor: "b7ffef"
+weapons: [
+  {
+    name: Ifrio-weapon
+    rotationLimit: 40
+    rotateSpeed: 2.4
+    shootCone: 15
+    x: 0
+    y: 0
+    shootY: -2.0
+    shootX: -2.5
+    rotate: true
+    inaccuracy: 0
+    reload: 10
+    bullet: {
+      type: BasicBulletType
+      height: 12
+      width: 7
+
+      lifetime: 8
+      damage: 15
+      speed: 10
+
+      lightColor: "b7ffef"
+      lightOpacity: 0.6
+      lightRadius: 20.5
+
+      frontColor: "b7ffef"
+      backColor: "b7ffef"
+      hitColor: "b7ffef"
+      trailWidth: 4
+      trailLength: 5
+      trailParam: 1
+      trailInterval: 0.5
+      trailColor: "b7ffef"
+      trailEffect: {
+        type: MultiEffect
+        effects: [
+          {
+            type: ParticleEffect
+            particles: 3
+            lifetime: 15
+            layer: 100.1
+            cone: 360
+            length: 10
+            sizeFrom: 2
+            sizeTo: 0
+            colorFrom: "b7ffef"
+            colorTo: "b7ffef"
+          }
+        ]
+      }
+      despawnEffect: "hitBulletColor"
+      despawnEffectColor: "b7ffef"
+      hitEffect: "hitBulletColor"
+      hitEffectColor: "b7ffef"
+    fragBullets: 3
+    fragRandomSpread: 15
+    fragVelocityMin: 0.8
+    fragVelocityMax: 1.0
+    fragLifeMin: 0.5
+    fragLifeMax: 1.3
+    fragBullet: {
+      speed: 8
+      lifetime: 10
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 2
+      pierceDamageFactor: 2.0
+      drag: 0.04
+      damage: 5
+      width: 10
+      height: 15
+      shrinkY: 0.25
+      shrinkX: 1
+      frontColor: "b7ffef"
+      backColor: 00000000
+      hitColor: "b7ffef"
+      despawnEffect: none
+      hitEffect: hitBulletColor
+      buildingDamageMultiplier: 0.1
+    }
+      shootEffect: "none"
+      shootEffectColor: "b7ffef"
+      smokeEffect: {
+        type: MultiEffect
+        effects: [
+          {
+            type: ParticleEffect
+            particles: 3
+            length: 10
+            lifetime: 20
+            interp: "pow5Out"
+            cone: 200
+            layer: 100.1
+            colorFrom: "b7ffef"
+            colorTo: "b7ffef"
+            sizeFrom: 0.5
+            sizeTo: 1.0
+          }
+          {
+            type: ParticleEffect
+            particles: 4
+            followParent: true
+            length: 20
+            lifetime: 20
+            interp: "pow2Out"
+            cone: 6
+            layer: 100.1
+            colorFrom: "b7ffef"
+            colorTo: "b7ffef"
+            sizeFrom: 0.5
+            sizeTo: 1.0
+          }
+        ]
+      }
+    }
+  }
+]

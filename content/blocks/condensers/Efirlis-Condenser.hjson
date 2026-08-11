@@ -1,0 +1,26 @@
+name: Efirlis Condenser
+type: ThermalGenerator
+category: production
+health: 300
+powerProduction: 0.0
+displayEfficiencyScale: 0.1111111111111111111
+attribute: Efirlis
+minEfficiency: 8.99999
+size: 3
+outputLiquid: Efirlis/0.15
+displayEfficiency: false
+requirements: [
+    Talosium/200
+    Velysitum/100
+    Efirlis-Materia/60
+]
+drawer: [
+    {
+        type: DrawDefault
+    }
+    {
+        type: DrawGlowRegion
+        alpha: 0.085
+        color: f6c6fb
+    }
+]

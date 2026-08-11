@@ -1,0 +1,77 @@
+flying: true
+name: "Sacerdos"
+description: "."
+controller: BuilderAI
+health: 100
+mineFloor: true
+mineWall: true
+hittable: true
+killable: true
+targetable: true
+speed: 6
+hitsize: 7
+isEnemy: false
+mineSpeed: 3.7
+mineTier: 1
+buildSpeed: 1.5
+drag: 0.7
+itemCapacity: 20
+alwaysUnlocked: true
+outlineColor: 26151e
+engines: [
+   {
+    x: 3.5
+    y: 4.75
+    radius: 2
+    rotation:-90
+   }
+   {
+    x: -3.5
+    y: 4.75
+    radius: 2
+    rotation:-90
+   }   
+   {
+    x: 3.5
+    y: -5.25
+    radius: 2
+    rotation:-90
+   }  
+   {
+    x: -3.5
+    y: -5.25
+    radius: 2
+    rotation:-90
+   }
+]
+weapons: [
+    {
+        type: RepairBeamWeapon
+        x: 0
+        y: 5
+        rotate: false
+        mirror: false
+        noAttack: true
+        shootY: 0
+        widthSinMag: 0.14
+        reload: 30
+        beamWidth: 0.7
+        shootCone: 20
+        repairSpeed: 2
+        fractionRepairSpeed: 0.04
+        targetUnits: false
+        targetBuildings: true
+        autoTarget: false
+        controllable: true
+        laserColor: f484ca
+        healColor: f484ca
+        bullet: {
+            maxRange: 45
+        }
+    }
+]
+		research: {
+	parent: Core-Being
+	planet: Argeya
+	requiresUnlock: false
+}

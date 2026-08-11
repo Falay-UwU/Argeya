@@ -1,0 +1,50 @@
+name: Erter Corall
+type: flying
+flying: true
+lowAltitude: true
+outlineColor: "2f182c"
+health: 90
+speed: 1.7
+accel: 0.12
+drag: 0.08
+rotateSpeed: 5
+hitSize: 6
+drawSize: 14
+range: 50
+targetAir: true
+targetGround: true
+shootSound: laser
+engines: [
+  {
+    x: 3.5
+    y: -5.25
+    radius: 2
+    rotation: -90
+  }
+  {
+    x: -3.5
+    y: -5.25
+    radius: 2
+    rotation: -90
+  }
+]
+
+weapons: [
+  {
+    bullet: {
+      type: "LightningBulletType"
+      lightColor: "ff93fd"
+      length: 60
+      chains: 7
+      lightningColor: "ff93fd"
+      lightningLength: 5
+      lightningLengthRand: 12
+      collides: false
+      splashDamage: 1
+      splashDamageRadius: 8
+      hitEffect: "blockCrash"
+      hitEffectColor: "ff93fd"
+      smokeEffect: "none"
+    }
+  }
+]

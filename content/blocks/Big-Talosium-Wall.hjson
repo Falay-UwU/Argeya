@@ -1,0 +1,9 @@
+name: Big Talosium Wall
+description: "."
+type: Wall
+health: 1360
+size: 2
+requirements: [
+  Talosium/120
+ ]
+category: defense

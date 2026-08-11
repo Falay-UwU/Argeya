@@ -1,0 +1,13 @@
+type: Floor
+name: Giburu
+speedMultiplier: 0.60
+variants: 0
+isLiquid: true
+liquidDrop: Giburu
+cacheLayer: tar
+supportsOverlay: true
+liquidMultiplier: 0.8333333333
+drownTime: 150
+emitLight: true
+lightRadius: 30
+lightColor: 5b5777

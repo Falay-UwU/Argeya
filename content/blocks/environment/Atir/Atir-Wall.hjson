@@ -1,0 +1,4 @@
+type: StaticWall
+name: "Atir Wall"
+description: "."
+variants: 3

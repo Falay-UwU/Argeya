@@ -1,0 +1,70 @@
+type: legs
+description: "."
+name: Fredol Boulder Mini
+legContinuousMove: true
+legPhysicsLayer: true
+outlineColor: "2f3318"
+allowLegStep: true
+lockLegBase: true
+groundLayer: 74
+hitSize: 1
+
+legStraightness: 1.0
+legForwardScl: 1.4
+legLengthScl: 1.25
+legMaxLength: 1.1
+legMinLength: 0.2
+legBaseOffset: 2
+legExtension: 0
+rippleScale: 0.2
+legGroupSize: 2
+legMoveSpace: 1
+legLength: 4
+legCount: 4
+
+itemCapacity: 20
+rotateSpeed: 2
+health: 400
+speed: 0.6
+armor: 20
+range: 16
+
+weapons: [
+  {
+    name: Fredol-Boulder-Mini-weapon
+    rotationLimit: 40
+    rotateSpeed: 2.4
+    shootCone: 15
+    x: 0
+    y: 0
+    shootY: 2.0
+    shootX: 2.5
+    rotate: true
+    inaccuracy: 0
+    reload: 45
+    bullet: {
+      type: BasicBulletType
+      height: 1
+      width: 1
+
+      lifetime: 16
+      damage: 40
+      speed: 1
+
+      lightColor: "b7e6ff"
+      lightOpacity: 0.7
+      lightRadius: 24.5
+
+      frontColor: "edffb7"
+      backColor: "edffb7"
+      hitColor: "edffb7"
+      despawnEffect: "hitBulletColor"
+      despawnEffectColor: "edffb7"
+      hitEffect: "hitBulletColor"
+      hitEffectColor: "edffb7"
+      shootEffect: "none"
+      shootEffectColor: "edffb7"
+      smokeEffect: "none"
+     }
+   }
+ ]

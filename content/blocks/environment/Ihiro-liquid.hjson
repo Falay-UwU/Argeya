@@ -1,0 +1,13 @@
+type: Floor
+name: Ihiro
+speedMultiplier: 0.80
+variants: 0
+isLiquid: true
+liquidDrop: Ihiro
+cacheLayer: water
+supportsOverlay: true
+liquidMultiplier: 0.8333333333
+drownTime: 70
+emitLight: true
+lightRadius: 55
+lightColor: f7f5dd

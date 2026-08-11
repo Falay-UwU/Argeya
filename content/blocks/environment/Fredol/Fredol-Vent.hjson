@@ -1,0 +1,9 @@
+name: Fredol Vent
+type: SteamVent
+blendGroup: Fredol-Fossil-Floor
+parent: Fredol-Fossil-Floor
+effect: ventSteam
+effectColor: "53553a"
+attributes: {
+  Ihiro: 0.04
+}

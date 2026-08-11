@@ -1,0 +1,9 @@
+name: Talosium Wall
+description: "."
+type: Wall
+health: 340
+size: 1
+requirements: [
+  Talosium/30
+ ]
+category: defense

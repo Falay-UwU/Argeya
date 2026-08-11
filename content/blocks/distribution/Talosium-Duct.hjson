@@ -1,0 +1,23 @@
+name: "Talosium Duct"
+type: Duct
+description: "."
+category: distribution
+underBullets: true
+category: distribution
+alwaysUnlocked: false
+speed: 6
+health: 50
+requirements: [
+	Talosium/2
+	Velysitum/1
+	]
+		research: {
+    "planet": "Argeya",
+	"parent": "Talosium-Drill",
+	"requirements": [
+	  "Talosium/5"
+	  "Velysitum/5"
+	]
+}
+bridgeReplacement: Talosium-Duct-Bridge
+junctionReplacement: Talosium-Junction

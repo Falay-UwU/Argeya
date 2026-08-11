@@ -1,0 +1,15 @@
+name: Irvisul
+description: "."
+heatCapacity: 1.0
+explosiveness: 0
+temperature: 0.1
+coolant: true
+flammability: 0.1
+gas: true
+color: d6feff
+gasColor: d6feff
+barColor: d6feff
+lightColor: d6feff
+  "liquid": {
+	"heatCapacity": 0.05,
+  }

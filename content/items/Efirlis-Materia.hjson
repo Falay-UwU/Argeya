@@ -1,0 +1,9 @@
+name: Efirlis Materia
+description: "."
+color: "dcc6db"
+ hardness: 1
+ charge: 0.1
+ explosiveness: 0.0
+ flammability: 0.0
+ radioactivity: 0.05
+ cost: 1

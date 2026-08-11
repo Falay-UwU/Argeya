@@ -1,0 +1,4 @@
+type: StaticWall
+name: "Venetir Wall"
+description: "."
+variants: 3

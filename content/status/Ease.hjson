@@ -1,0 +1,17 @@
+name: Ease
+speedMultiplier: 1.1
+reloadMultiplier: 1.1
+healthMultiplier: 0.9
+damageMultiplier: 0.9
+statusDuration: 120
+effect: {
+        type: ParticleEffect
+        colorFrom: fbffe1
+        colorTo: ffffff
+        particles: 2
+        lifetime: 30
+        length: 20
+        int: 000202
+        sizeFrom: 0
+        sizeTo: 2
+}

@@ -1,0 +1,11 @@
+type: Sorter
+invert: true
+name: Talosium Sorter Inverted
+description: "."
+category: distribution
+research: Talosium-Sorter
+requirements: [
+  Talosium/10
+  Velysitum/5
+]
+researchCostMultiplier: 3.5

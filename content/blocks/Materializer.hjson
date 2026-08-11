@@ -1,0 +1,62 @@
+name: Materializer
+description: "."
+type: GenericCrafter
+health: 200
+size: 2
+itemCapacity: 10
+category: crafting
+squareSprite: false
+ignoreLiquidFullness: true
+requirements: [
+    Talosium/135
+    Velysitum/55
+]
+consumes: {
+    items: [
+        Talosium/1
+    ]
+    liquids: [
+        Efirlis/0.0666666666666
+    ]
+}
+craftTime: 150
+outputItem: Efirlis-Materia/2
+craftEffect: {
+    type: RadialEffect
+    rotationSpacing : 90
+    rotationOffset: 0
+    lengthOffset: 2
+    amount: 3
+    effect: {
+        type: ParticleEffect
+        particles: 2
+        length: 75
+        lifetime: 550
+        sizeFrom: 0.7
+        sizeTo: 3.2
+        cone: 4
+        baseRotation: 67
+        useRotation: false
+        interp: pow5Out
+        colorFrom: efdaf2
+        colorTo: 1b061e
+        layer: 100.2
+        }
+    }
+drawer: {
+type: DrawMulti
+    drawers: [
+    {
+        type: DrawDefault
+    }
+    {
+        type: DrawGlowRegion
+        suffix: "-glow"
+        color: fbe1fa
+        floatAlpha: 0.8
+        glowScale: 10
+        rotate: false
+        layer: 100.1
+    }
+    ]
+}

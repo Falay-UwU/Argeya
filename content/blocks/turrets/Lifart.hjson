@@ -1,0 +1,253 @@
+type: ItemTurret
+name: Lifart
+description: "."
+size: 2
+health: 600
+reload: 15
+inaccuracy: 0
+range: 136
+targetAir: false
+targetGround: true
+category: turret
+shootSound: laser
+outlineColor: 171717
+itemCapasity: 10
+requirements: [
+  Talosium/250
+  Velysitum/90
+]
+ammoTypes: {
+  Velysitum: {
+    bulletType: IncendiaryBulletType
+    shootEffect: none
+    shootEffectColor: edb3cd
+    smokeEffect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          particles: 5
+          length: 5
+          lifetime: 11
+          interp: pow5Out
+          cone: 200
+          layer: 100.1
+          colorFrom: edb3cd
+          colorTo: edb3cd
+          sizeFrom: 1
+          sizeTo: 2
+        }
+        {
+          type: ParticleEffect
+          particles: 8
+          followParent: true
+          length: 50
+          lifetime: 25
+          interp: pow2Out
+          cone: 4
+          layer: 100.1
+          colorFrom: edb3cd
+          colorTo: edb3cd
+          sizeFrom: 1
+          sizeTo: 2
+        }
+      ]
+    }
+    frontColor: edb3cd
+    backColor: edb3cd
+    trailColor: edb3cd
+    trailWidth: 8
+    trailLength: 10
+    trailParam: 1
+    trailInterval: 0.1
+    trailEffect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          particles: 5
+          lifetime: 25
+          layer: 100.1
+          cone: 360
+          length: 6
+          sizeFrom: 3
+          sizeTo: 0
+          colorFrom: edb3cd
+          colorTo: edb3cd
+        }
+      ]
+    }
+    hitEffect: {
+      type: ExplosionEffect
+      lifetime: 15
+      waveColor: edb3cd
+      waveStroke: 1.3
+      waveRad: 10
+      smokeColor: edb3cd
+      smokeSizeBase: 2
+      smokeSize: 1
+      smokes: 3
+      sparkColor: edb3cd
+      sparkStroke: 1.6
+      sparkRad: 10
+      sparkLen: 1
+      sparks: 7
+    }
+    hitColor: edb3cd
+    width: 4
+    height: 6
+    speed: 34
+    lifetime: 4
+    ammoMultiplier: 3
+    buildingDamageMultiplier: 0.1
+    damage: 7
+    splashDamage: 5
+    splashDamageRadius: 10
+    fragBullets: 20
+    fragRandomSpread: 110.5
+    fragVelocityMin: 0.5
+    fragVelocityMax: 2.0
+    fragLifeMin: 0.2
+    fragLifeMax: 2
+    fragBullet: {
+      speed: 5
+      lifetime: 8
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 4
+      pierceDamageFactor: 0.01
+      drag: 0.40
+      damage: 3
+      width: 7
+      height: 7
+      shrinkY: 0.5
+      shrinkX: 1
+      frontColor: edb3cd
+      backColor: 00000000
+      hitColor: fcf0bd
+      despawnEffect: none
+      hitEffect: hitBulletColor
+      buildingDamageMultiplier: 0.1
+    }
+  }
+  Efirlis-Materia: {
+    bulletType: IncendiaryBulletType
+    shootEffect: none
+    shootEffectColor: dcc6db
+    smokeEffect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          particles: 7
+          length: 5
+          lifetime: 23
+          interp: pow5Out
+          cone: 200
+          layer: 100.1
+          colorFrom: dcc6db
+          colorTo: ffffff
+          sizeFrom: 1
+          sizeTo: 2
+        }
+        {
+          type: ParticleEffect
+          particles: 10
+          followParent: true
+          length: 35
+          lifetime: 45
+          interp: pow2Out
+          cone: 6
+          layer: 100.1
+          colorFrom: dcc6db
+          colorTo: ffffff
+          sizeFrom: 1.2
+          sizeTo: 2.5
+        }
+      ]
+    }
+    frontColor: dcc6db
+    backColor: dcc6db
+    trailColor: dcc6db
+    trailWidth: 4
+    trailLength: 5
+    trailParam: 1
+    trailInterval: 0.5
+    trailEffect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          particles: 3
+          lifetime: 30
+          layer: 100.1
+          cone: 360
+          length: 10
+          sizeFrom: 4
+          sizeTo: 0
+          colorFrom: dcc6db
+          colorTo: ffffff
+        }
+      ]
+    }
+    hitEffect: {
+      type: ExplosionEffect
+      lifetime: 15
+      waveColor: dcc6db
+      waveStroke: 1.3
+      waveRad: 10
+      smokeColor: dcc6db
+      smokeSizeBase: 3
+      smokeSize: 2
+      smokes: 3
+      sparkColor: dcc6db
+      sparkStroke: 1.6
+      sparkRad: 11.5
+      sparkLen: 1
+      sparks: 5
+    }
+    hitColor: dcc6db
+    width: 4
+    height: 6
+    speed: 34
+    lifetime: 4
+    ammoMultiplier: 4
+    buildingDamageMultiplier: 0.1
+    damage: 5
+    splashDamage: 5
+    status: Low-Intangible
+    statusDuration: 120
+    splashDamageRadius: 10
+    fragBullets: 15
+    fragRandomSpread: 110.5
+    fragVelocityMin: 1.2
+    fragVelocityMax: 2.0
+    fragLifeMin: 1
+    fragLifeMax: 2
+    fragBullet: {
+      speed: 7
+      lifetime: 5
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 9
+      pierceDamageFactor: 0.01
+      drag: 0.40
+      damage: 5
+      width: 7
+      height: 7
+      shrinkY: 0.5
+      shrinkX: 1
+      frontColor: ffffff
+      backColor: 00000000
+      hitColor: ffffff
+      despawnEffect: none
+      hitEffect: hitBulletColor
+      buildingDamageMultiplier: 0.1
+    }
+  }
+}
+consumes: {
+  coolant: {
+    amount: 0.2
+  }
+}

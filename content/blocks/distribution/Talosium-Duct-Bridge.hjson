@@ -1,0 +1,20 @@
+name: Talosium Duct Bridge
+type: DuctBridge
+description: "."
+category: distribution
+size: 1
+health: 100
+squareSprite: false
+hasPower: false
+solid: false
+speed: 6
+range: 5
+requirements: [
+Talosium/12
+Velysitum/2
+]
+researchCostMultiplier: 3.5 
+research: {
+  parent: "Talosium-router"
+  planet: Argeya
+}

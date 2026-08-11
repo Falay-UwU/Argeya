@@ -1,0 +1,18 @@
+name: Efirlis
+description: "."
+color: "dcc6db"
+barColor: "714f70"
+gasColor: "ffffff"
+liquid: {
+    cap: 3
+    explosive: false
+    flammable: false
+    viscosity: 0.2
+ heatCapacity: 0.3
+  }
+temperature: 0.2
+flammability: 0.0
+explosiveness": 0.0
+explosive: false
+viscosity: 0.2
+heatCapacity: 0.3

@@ -1,0 +1,9 @@
+name: Irvisul Solid
+description: "."
+color: "d6feff"
+ hardness: 1
+ charge: 1.00
+ explosiveness: 0.80
+ flammability: 0.10
+ radioactivity: 0.20
+ cost: 1

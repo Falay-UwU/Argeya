@@ -1,0 +1,15 @@
+type: Floor
+name: Efirlis
+speedMultiplier: 0.70
+variants: 0
+isLiquid: true
+liquidDrop: Efirlis
+cacheLayer: tar
+supportsOverlay: true
+liquidMultiplier: 0.8333333333
+drownTime: 300
+emitLight: true
+lightRadius: 30
+lightColor: f7ddf3
+status: Intangible
+statusDuration: 240

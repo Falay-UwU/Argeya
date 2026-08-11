@@ -1,0 +1,9 @@
+name: Venetir Vent
+type: SteamVent
+blendGroup: Venetir-Smooth-Floor
+parent: Venetir-Smooth-Floor
+effect: ventSteam
+effectColor: "1e1d31"
+attributes: {
+  Giburu: 0.04
+}

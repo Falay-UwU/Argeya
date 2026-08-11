@@ -1,0 +1,10 @@
+type: Sorter
+name: Talosium Sorter
+description: "."
+category: distribution
+research: Talosium-Router
+requirements: [
+  Talosium/10
+  Velysitum/5
+]
+researchCostMultiplier: 3.5

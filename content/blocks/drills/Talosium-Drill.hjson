@@ -1,0 +1,22 @@
+name: Talosium Drill
+description: "."
+squareSprite: false
+type: Drill
+health: 150
+category: production
+size: 2
+drillTime: 1100
+tier: 1
+liquidBoostIntensity: 1.70
+requirements: [
+  Talosium/65
+  Velysitum/35
+]
+consumes: {
+  liquid: {
+  liquid: Irvisul
+  amount: 0.01666666666666666666666666666666
+  booster: true
+  optional: true
+ }
+}

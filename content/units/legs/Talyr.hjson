@@ -1,0 +1,123 @@
+type: legs
+description: "."
+name: Talyr
+legContinuousMove: true
+legPhysicsLayer: true
+outlineColor: "182033"
+allowLegStep: true
+lockLegBase: true
+groundLayer: 74
+hitSize: 5
+
+legStraightness: 1.0
+legForwardScl: 1.4
+legLengthScl: 1.25
+legMaxLength: 1.1
+legMinLength: 0.2
+legBaseOffset: 2
+legExtension: -2
+rippleScale: 0.2
+legGroupSize: 2
+legMoveSpace: 1
+legLength: 5
+legCount: 6
+
+itemCapacity: 20
+rotateSpeed: 2
+health: 220
+speed: 0.8
+armor: 5
+range: 80
+
+weapons: [
+  {
+    name: Talyr-weapon
+    rotationLimit: 40
+    rotateSpeed: 2.4
+    shootCone: 15
+    x: 0
+    y: 0
+    shootY: 2.0
+    shootX: 2.5
+    rotate: true
+    inaccuracy: 0
+    reload: 15
+    bullet: {
+      type: BasicBulletType
+      height: 12
+      width: 7
+
+      lifetime: 10
+      damage: 20
+      speed: 8
+
+      lightColor: "b7e6ff"
+      lightOpacity: 0.7
+      lightRadius: 24.5
+
+      frontColor: "b7e6ff"
+      backColor: "b7e6ff"
+      hitColor: "b7e6ff"
+      trailWidth: 4
+      trailLength: 5
+      trailParam: 1
+      trailInterval: 0.5
+      trailColor: "b7e6ff"
+      trailEffect: {
+        type: MultiEffect
+        effects: [
+          {
+            type: ParticleEffect
+            particles: 3
+            lifetime: 15
+            layer: 100.1
+            cone: 360
+            length: 10
+            sizeFrom: 2
+            sizeTo: 0
+            colorFrom: "b7e6ff"
+            colorTo: "b7e6ff"
+          }
+        ]
+      }
+      despawnEffect: "hitBulletColor"
+      despawnEffectColor: "b7e6ff"
+      hitEffect: "hitBulletColor"
+      hitEffectColor: "b7e6ff"
+      shootEffect: "none"
+      shootEffectColor: "b7e6ff"
+      smokeEffect: {
+        type: MultiEffect
+        effects: [
+          {
+            type: ParticleEffect
+            particles: 3
+            length: 10
+            lifetime: 20
+            interp: "pow5Out"
+            cone: 200
+            layer: 100.1
+            colorFrom: "b7e6ff"
+            colorTo: "b7e6ff"
+            sizeFrom: 0.5
+            sizeTo: 1.0
+          }
+          {
+            type: ParticleEffect
+            particles: 4
+            followParent: true
+            length: 20
+            lifetime: 20
+            interp: "pow2Out"
+            cone: 6
+            layer: 100.1
+            colorFrom: "b7e6ff"
+            colorTo: "b7e6ff"
+            sizeFrom: 0.5
+            sizeTo: 1.0
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,4 @@
+type: StaticWall
+name: "Endore Wall"
+description: "."
+variants: 3

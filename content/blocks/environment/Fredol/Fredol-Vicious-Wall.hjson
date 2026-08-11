@@ -1,0 +1,4 @@
+type: StaticWall
+name: "Fredol Vicious Wall"
+description: "."
+variants: 3
