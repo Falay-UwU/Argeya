@@ -5,5 +5,5 @@ parent: Atir-Smooth-Floor
 effect: ventSteam
 effectColor: "1e1d31"
 attributes: {
-  Efirlis: 0.04
+  Efirlis: 1
 }
