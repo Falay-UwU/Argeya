@@ -1,14 +1,15 @@
 name: Efirlis Condenser
-type: ThermalGenerator
+type: AttributeCrafter
 category: production
 health: 300
-powerProduction: 0.0
-displayEfficiencyScale: 0.1111111111111111111
+itemCapacity: 0
+minEfficiency: 8.9999
+baseEfficiency: 0
+ boostScale: 0.1111111111
+displayEfficiency: false
 attribute: Efirlis
-minEfficiency: 8.99999
 size: 3
 outputLiquid: Efirlis/0.15
-displayEfficiency: false
 requirements: [
     Talosium/200
     Velysitum/100
