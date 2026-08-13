@@ -47,16 +47,13 @@ drawer: {
 type: DrawMulti
     drawers: [
     {
-        type: DrawDefault
-    }
-    {
-        type: DrawGlowRegion
-        suffix: "-glow"
-        color: fbe1fa
-        floatAlpha: 0.8
-        glowScale: 10
-        rotate: false
-        layer: 100.1
-    }
+    type: DrawGlowRegion
+    suffix: "-glow"
+    color: fbe1fa
+    alpha: 0.8
+    glowScale: 10
+    rotate: false
+    layer: 100.1
+}
     ]
 }

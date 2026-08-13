@@ -15,6 +15,6 @@ Velysitum/2
 ]
 researchCostMultiplier: 3.5 
 research: {
-  parent: "Talosium-router"
+  parent: "Talosium-Router"
   planet: Argeya
 }

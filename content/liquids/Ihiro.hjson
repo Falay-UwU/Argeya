@@ -3,16 +3,8 @@ description: "."
 color: "fbffe1"
 barColor: "dde4c3"
 gasColor: "eceedd"
-"liquid": {
-    "cap": 3,
-    "explosive": true,
-    "flammable": true,
-    "viscosity": 0.6,
- "heatCapacity": 0.5,
-  }
 temperature: 0.1
 flammability: 0.3
 explosiveness: 0.3
-explosive: false
 viscosity: 0.1
 heatCapacity: 0.2

@@ -4,12 +4,11 @@ description: "."
 controller: BuilderAI
 health: 100
 mineFloor: true
-mineWall: true
 hittable: true
 killable: true
 targetable: true
 speed: 6
-hitsize: 7
+hitSize: 7
 isEnemy: false
 mineSpeed: 3.7
 mineTier: 1
@@ -70,7 +69,7 @@ weapons: [
         }
     }
 ]
-		research: {
+research: {
 	parent: Core-Being
 	planet: Argeya
 	requiresUnlock: false

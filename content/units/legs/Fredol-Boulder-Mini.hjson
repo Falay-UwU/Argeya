@@ -59,9 +59,7 @@ weapons: [
       backColor: "edffb7"
       hitColor: "edffb7"
       despawnEffect: "hitBulletColor"
-      despawnEffectColor: "edffb7"
       hitEffect: "hitBulletColor"
-      hitEffectColor: "edffb7"
       shootEffect: "none"
       smokeEffect: "none"
      }

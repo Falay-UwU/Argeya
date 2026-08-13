@@ -9,11 +9,9 @@ accel: 0.12
 drag: 0.08
 rotateSpeed: 9
 hitSize: 7
-drawSize: 14
 range: 60
 targetAir: true
 targetGround: true
-shootSound: laser
 engines: [
   {
     x: 3.5
@@ -31,19 +29,18 @@ engines: [
 
 weapons: [
   {
+    shootSound: laser
     bullet: {
       type: "LightningBulletType"
       lightColor: "ff93fd"
-      length: 70
-      chains: 7
+      lightningLength: 70
+      lightningCone: 7
       lightningColor: "ff93fd"
-      lightningLength: 7
       lightningLengthRand: 7
       collides: false
       splashDamage: 1
       splashDamageRadius: 10
       hitEffect: "blockCrash"
-      hitEffectColor: "ff93fd"
       smokeEffect: "none"
     }
   }

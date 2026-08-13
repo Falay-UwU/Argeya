@@ -10,6 +10,3 @@ color: d6feff
 gasColor: d6feff
 barColor: d6feff
 lightColor: d6feff
-  "liquid": {
-	"heatCapacity": 0.05,
-  }

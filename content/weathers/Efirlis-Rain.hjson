@@ -8,6 +8,4 @@ density: 4500
 sizeMin: 14
 sizeMax: 22
 splashTimeScale: 12
-liquid: Efirlis
-force: 0
 status: Low-Dematerialization

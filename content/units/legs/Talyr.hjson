@@ -81,9 +81,7 @@ weapons: [
         ]
       }
       despawnEffect: "hitBulletColor"
-      despawnEffectColor: "b7e6ff"
       hitEffect: "hitBulletColor"
-      hitEffectColor: "b7e6ff"
       shootEffect: "none"
       smokeEffect: {
         type: MultiEffect

@@ -80,9 +80,7 @@ weapons: [
         ]
       }
       despawnEffect: "hitBulletColor"
-      despawnEffectColor: "b7ffef"
       hitEffect: "hitBulletColor"
-      hitEffectColor: "b7ffef"
     fragBullets: 1
     fragRandomSpread: 15
     fragVelocityMin: 0.8
