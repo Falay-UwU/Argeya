@@ -12,7 +12,7 @@ category: turret
 shootSound: laser
 shootY: 1
 outlineColor: 171717
-itemCapasity: 10
+itemCapacity: 10
 requirements: [
   Talosium/250
   Velysitum/100
@@ -20,9 +20,14 @@ requirements: [
 ]
 ammoTypes: {
   Efirlis-Materia: {
-    bulletType: IncendiaryBulletType
-    shootEffect: none
-    shootEffectColor: dcc6db
+    type: BasicBulletType
+    status: burning   
+    statusDuration: 60
+    shootEffect: {
+      type: ParticleEffect
+      colorFrom: edb3cd
+      colorTo: edb3cd
+    }
     smokeEffect: {
       type: MultiEffect
       effects: [
@@ -108,7 +113,7 @@ ammoTypes: {
     damage: 10
     knockback: 5.0
     status: Low-Intangible
-    statusDuration: 240
+    
     fragBullets: 8
     fragRandomSpread: 9.5
     fragVelocityMin: 0.8
@@ -137,9 +142,10 @@ ammoTypes: {
     }
   }
   Irvisul-Solid: {
-    bulletType: IncendiaryBulletType
+    type: BasicBulletType
+    status: burning   
+    statusDuration: 60
     shootEffect: none
-    shootEffectColor: d6feff
     smokeEffect: {
       type: MultiEffect
       effects: [

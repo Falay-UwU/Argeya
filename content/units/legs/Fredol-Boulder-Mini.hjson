@@ -63,7 +63,6 @@ weapons: [
       hitEffect: "hitBulletColor"
       hitEffectColor: "edffb7"
       shootEffect: "none"
-      shootEffectColor: "edffb7"
       smokeEffect: "none"
      }
    }

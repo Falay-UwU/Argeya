@@ -85,7 +85,6 @@ weapons: [
       hitEffect: "hitBulletColor"
       hitEffectColor: "b7e6ff"
       shootEffect: "none"
-      shootEffectColor: "b7e6ff"
       smokeEffect: {
         type: MultiEffect
         effects: [

@@ -111,7 +111,6 @@ weapons: [
       buildingDamageMultiplier: 0.1
     }
       shootEffect: "none"
-      shootEffectColor: "b7ffef"
       smokeEffect: {
         type: MultiEffect
         effects: [

@@ -4,7 +4,7 @@ reloadMultiplier: 1.30
 healthMultiplier: 1.50
 damageMultiplier: 1.20
 damage: -0.1
-statusDuration: 120
+
 effect: {
       type: ExplosionEffect
       lifetime: 15

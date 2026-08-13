@@ -12,7 +12,7 @@ liquid: {
   }
 temperature: 0.0
 flammability: 0.1
-explosiveness": 0.0
+explosiveness: 0.0
 explosive: false
 viscosity: 0.5
 heatCapacity: 0.6

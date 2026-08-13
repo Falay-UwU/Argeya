@@ -12,4 +12,3 @@ emitLight: true
 lightRadius: 30
 lightColor: f7ddf3
 status: Intangible
-statusDuration: 240

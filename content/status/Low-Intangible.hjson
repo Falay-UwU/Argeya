@@ -3,8 +3,8 @@ speedMultiplier: 0.8
 reloadMultiplier: 0.8
 healthMultiplier: 0.8
 damageMultiplier: 0.8
-dizarmore: true
-statusDuration: 120
+disarm: true
+
 effect: {
         type: ParticleEffect
         colorFrom: e9cbea
@@ -12,7 +12,6 @@ effect: {
         particles: 2
         lifetime: 30
         length: 20
-        int: 000202
         sizeFrom: 0
         sizeTo: 3
 }

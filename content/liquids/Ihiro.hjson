@@ -12,7 +12,7 @@ gasColor: "eceedd"
   }
 temperature: 0.1
 flammability: 0.3
-explosiveness": 0.3
+explosiveness: 0.3
 explosive: false
 viscosity: 0.1
 heatCapacity: 0.2
