@@ -29,39 +29,5 @@ speed: 0.6
 armor: 20
 range: 16
 
-weapons: [
-  {
-    name: Fredol-Boulder-Mini-weapon
-    rotationLimit: 40
-    rotateSpeed: 2.4
-    shootCone: 15
-    x: 0
-    y: 0
-    shootY: 2.0
-    shootX: 2.5
-    rotate: true
-    inaccuracy: 0
-    reload: 45
-    bullet: {
-      type: BasicBulletType
-      height: 1
-      width: 1
-
-      lifetime: 16
-      damage: 40
-      speed: 1
-
-      lightColor: "b7e6ff"
-      lightOpacity: 0.7
-      lightRadius: 24.5
-
-      frontColor: "edffb7"
-      backColor: "edffb7"
-      hitColor: "edffb7"
-      despawnEffect: "hitBulletColor"
-      hitEffect: "hitBulletColor"
-      shootEffect: "none"
-      smokeEffect: "none"
-     }
-   }
- ]
+legSplashDamage: 12
+legSplashRange: 12
