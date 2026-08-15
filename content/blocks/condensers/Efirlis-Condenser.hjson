@@ -5,7 +5,7 @@ health: 300
 itemCapacity: 0
 minEfficiency: 8.9999
 baseEfficiency: 0
- boostScale: 0.1111111111
+boostScale: 0.1111111111
 displayEfficiency: false
 attribute: Efirlis
 size: 3
@@ -17,11 +17,25 @@ requirements: [
 ]
 drawer: [
     {
+        type: DrawRegion
+        suffix: "-bottom"
+    }
+    {
+        type: DrawLiquidTile
+        padding: 8
+        drawLiquid: Efirlis
+    }
+    {
         type: DrawDefault
     }
     {
         type: DrawGlowRegion
-        alpha: 0.085
+        suffix: "-glow1"
+        color: f6c6fb
+    }
+    {
+        type: DrawGlowRegion
+        suffix: "-glow2"
         color: f6c6fb
     }
 ]
