@@ -1,0 +1,11 @@
+type: Duct
+name: "Velysitum Duct"
+description: "Усовершенствованный турбопровод высокой пропускной способности для быстрой транспортировки материалов."
+health: 120
+speed: 4.0
+requirements: [
+  copper/1
+  lead/1
+]
+category: distribution
+research: duct

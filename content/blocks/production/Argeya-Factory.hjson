@@ -1,0 +1,46 @@
+type: UnitFactory
+name: Argeya Factory
+description: "Первый завод юнитов. Производит пауков и воздушные юниты."
+size: 3
+health: 600
+itemCapacity: 10
+liquidCapacity: 30
+category: units
+research: core-being
+
+// Требования для постройки
+requirements: [
+    Talosium/200
+    Efirlis-Materia/150
+    Velysitum/100
+]
+
+// Потребление жидкости для стабильной работы
+consumes: {
+    liquids: [
+        Irvisul/0.0333333333333  // 2 ед/сек (60 тиков * 0.0333 = 2)
+    ]
+}
+
+// Планы производства
+plans: [
+    // Паук (Talyr, не заросший)
+    {
+        unit: Ifrio
+        requirements: [
+            Talosium/65
+            Efirlis-Materia/45
+        ]
+        time: 2100  // 35 сек * 60 тиков
+    }
+    // Воздушный юнит (не заросший)
+    {
+        unit: Erter
+        requirements: [
+            Talosium/25
+            Efirlis-Materia/40
+            Velysitum/35
+        ]
+        time: 2700  // 45 сек * 60 тиков
+    }
+]
