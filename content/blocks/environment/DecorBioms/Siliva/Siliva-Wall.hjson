@@ -1,0 +1,4 @@
+type: StaticWall
+name: "Siliva Wall"
+description: "."
+variants: 3
