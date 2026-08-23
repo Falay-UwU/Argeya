@@ -1,0 +1,4 @@
+type: StaticWall
+name: "Amert Wall"
+description: "."
+variants: 3
