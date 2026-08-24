@@ -19,8 +19,6 @@ requirements: [
 ammoTypes: {
   Velysitum: {
     type: BasicBulletType
-    status: burning   
-    statusDuration: 60
     shootEffect: none
     smokeEffect: {
       type: MultiEffect
@@ -133,7 +131,7 @@ ammoTypes: {
   }
   Efirlis-Materia: {
     type: BasicBulletType
-    status: burning   
+    status: Low-Intangible   
     statusDuration: 60
     shootEffect: {
       type: ParticleEffect
