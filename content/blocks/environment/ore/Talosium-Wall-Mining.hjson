@@ -1,0 +1,4 @@
+name: "Talosium Wall Mining"
+type: "StaticWall"
+variants: 3
+itemDrop: "Talosium"
