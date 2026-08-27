@@ -1,0 +1,4 @@
+name: "Velysitum Wall Mining"
+type: "StaticWall"
+variants: 3
+itemDrop: "Velysitum"
